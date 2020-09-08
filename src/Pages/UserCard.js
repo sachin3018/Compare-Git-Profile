@@ -8,12 +8,7 @@ const UserCard = ({ user }) => {
     
      <CardBody className="bodyCard">
       <Row>
-           <Col sm="6">
-                <div class="pictureholder">
-                        <img src={user.avatar_url } className="picture" alt="Profile Image" />
-                </div>
-           </Col>
-            <Col sm="6">
+            <Col sm="12">
             <div>
                     <div className="text-primary text">Name : { user.name === null ? "No Name" : user.name }</div>
                     <div className="text-primary">Public_repos : { user.public_repos }</div>
