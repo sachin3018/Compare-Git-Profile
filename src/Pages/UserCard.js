@@ -13,12 +13,12 @@ const UserCard = ({ user }) => {
             </Col>
             <Col sm="6">
             <div>
-                    <div className="text-primary text">Name : { user.name === null ? "No Name" : user.name }</div>
-                    <div className="text-primary text">Public_repos : { user.public_repos }</div>
-                    <div className="text-primary text">Public_gists : { user.public_gists }</div>
+                    <div className="text">Name : { user.name === null ? "No Name" : user.name }</div>
+                    <div className="text">Public_repos : { user.public_repos }</div>
+                    <div className="text">Public_gists : { user.public_gists }</div>
                     
-                    <div className="text-info text">Followers : { user.followers }</div>
-                    <div className="text-info text">Following : { user.following }</div>
+                    <div className="text">Followers : { user.followers }</div>
+                    <div className="text">Following : { user.following }</div>
             </div>
             </Col>
       </Row>
