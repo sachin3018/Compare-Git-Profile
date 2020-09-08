@@ -9,7 +9,7 @@ const UserCard = ({ user }) => {
      <CardBody className="bodyCard">
       <Row>
             <Col sm="6">
-                    <img src={user.avatar_url} alt="Profile Picture" />
+                    <img src={user.avatar_url} alt="new" />
             </Col>
             <Col sm="6">
             <div>
