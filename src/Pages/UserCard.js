@@ -10,7 +10,7 @@ const UserCard = ({ user }) => {
       <Row>
            <Col sm="6">
                 <div class="pictureholder">
-                        <img src={user.avatar_url } className="picture"/>
+                        <img src={user.avatar_url } className="picture" alt="Profile Image" />
                 </div>
            </Col>
             <Col sm="6">
