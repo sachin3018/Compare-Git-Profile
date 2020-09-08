@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardBody,Row, Col } from "reactstrap";
+import {  CardBody,Row, Col } from "reactstrap";
 import "../App.css"
 
 const UserCard = ({ user }) => {
