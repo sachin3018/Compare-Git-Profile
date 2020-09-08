@@ -9,7 +9,9 @@ const UserCard = ({ user }) => {
      <CardBody className="bodyCard">
       <Row>
             <Col sm="6">
-                    <img src={user.avatar_url} alt="new" />
+                <div class="pictureholder">
+                    <img src={user.avatar_url} alt="new" className="picture" />
+                </div>
             </Col>
             <Col sm="6">
             <div>
