@@ -1,3 +1,5 @@
+After creating the mind mapping, I jumped into the documentation of some libraries of React and other Libraries to know more about the components I need. After then I started to build according to the mind map i prepared.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
