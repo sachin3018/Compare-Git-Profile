@@ -15,6 +15,8 @@ const reducer = (state = intusers,action) => {
       list.push(action.user)
       state = list
       return state
+    default :
+      return state;
   }
   return state
 }
