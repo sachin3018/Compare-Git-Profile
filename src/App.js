@@ -18,7 +18,6 @@ const reducer = (state = intusers,action) => {
     default :
       return state;
   }
-  return state
 }
 
 const store = createStore(reducer);
